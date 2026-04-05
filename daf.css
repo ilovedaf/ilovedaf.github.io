@@ -25,15 +25,11 @@ body {
 	object-fit: contain;
 	margin: 0px;
 	scale: 1;
-	rotate: 0deg;
-	margin-top: 0vh;
 	transition-duration: 1s;
 }
 
 .top_image:hover {
 	scale: 1.2;
-	rotate: 370deg;
-	margin-top: 25vh;
 }
 
 div {
