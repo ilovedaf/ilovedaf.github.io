@@ -1,0 +1,121 @@
+html {
+	scroll-behavior: smooth;	
+}
+
+* {
+	color: black;
+	background-color: transparent;
+	font-family: Segoe UI;
+}
+
+*::selection {
+	color: black;
+	background-color: #5399BD;
+}
+
+body {
+	background-color: #AAAAAA;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+.top_image {
+	width: 100vw;
+	height: 50vh;
+	object-fit: contain;
+	margin: 0px;
+	scale: 1;
+	rotate: 0deg;
+	margin-top: 0vh;
+	transition-duration: 1s;
+}
+
+.top_image:hover {
+	scale: 1.2;
+	rotate: 370deg;
+	margin-top: 25vh;
+}
+
+div {
+	background-color: white;
+	width: 100vw;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 0rem;
+	flex-wrap: wrap;
+}
+
+h1 {
+	background-image: linear-gradient(to right, #5399BD, #337A9E);
+	font-size: 60;
+	padding: 10px;
+	text-align: center;
+	margin: 0px;
+	font-weight: 700;
+}
+
+a {
+	background-color: transparent;
+	font-size: 30;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 700;
+	margin: 0px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 100px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	transition-duration: 0.4s;
+}
+
+a:hover {
+	color: #5399BD;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.underlined {
+	text-decoration: underline;
+	font-weight: 500;
+	padding: 0px;
+	margin: 0px;
+	background-color: transparent;
+	color: black;
+}
+
+.underlined:hover {
+	background-color: transparent;
+	color: #5399BD;
+}
+
+h2 {
+	font-size: 50;
+	text-align: center;
+	background: linear-gradient(to right, #5399BD, #337A9E);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+	width: 100vw;
+}
+
+p {
+	font-size: 30;
+	text-align: center;
+	font-weight: 500;
+	padding-top: 0px;
+	margin-top: -10px;
+	width: 65vw;
+}
+
+.progress_section_title {
+	background-color: #EEEEEE;
+	font-weight: 700;
+}
+
+.progress_section {
+	background-color: #DDDDDD;
+	width: 65vw;
+	padding: 30px;
+	margin: 30px;
+}
